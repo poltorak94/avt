@@ -1,0 +1,33 @@
+.button {
+    background: #EB5F12;
+    box-shadow: 0px 6px 20px rgba(235, 95, 18, 0.2);
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 700;
+    padding: 15px 30px;
+    transition: 200ms linear all;
+}
+
+.button:hover {
+    box-shadow: 0px 10px 40px rgba(235, 95, 18, 0.5);
+}
+.button--small{
+    padding: 9px 18px;
+}
+
+.button--transparent {
+    background: #ffffff;
+    color: #EB5F12;
+    border: 2px solid #EB5F12;
+    box-shadow: none;
+    font-size: 14px;
+    font-weight: 700;
+    padding: 13px 30px;
+    transition: 200ms linear all;
+}
+
+.button--transparent:hover {
+    background: #EB5F12;
+    color: #ffffff;
+    box-shadow: 0px 10px 40px rgba(235, 95, 18, 0.5);
+}

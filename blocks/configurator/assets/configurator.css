@@ -1,0 +1,88 @@
+.configurator__form-container {
+    max-width: 920px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.configurator__select {
+    margin-right: 20px;
+}
+
+.configurator {
+    position: relative;
+    z-index: 20;
+}
+
+.configurator__form-title {
+    display: none;
+    font-size: 22px;
+    line-height: 28px;
+    color: #ffffff;
+    font-weight: 700;
+    max-width: 170px;
+    margin-right: 40px;
+}
+
+.configurator--with-title {
+    padding: 15px 0;
+    background: #000000;
+}
+
+.configurator--with-title .configurator__form {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1170px;
+    display: flex;
+    align-items: center;
+}
+
+.configurator--with-title .configurator__form-title {
+    display: block;
+}
+
+.configurator--with-title .configurator__form-container {
+    flex: 1;
+}
+
+@media screen and (max-width: 1199px) {
+    .configurator--with-title .configurator__form {
+        max-width: 100%;
+        padding: 0 15px;
+    }
+}
+
+@media screen and (max-width: 1169px) {
+    .configurator--with-title .configurator__form {
+        flex-direction: column;
+        align-items: center;
+    }
+    .configurator__form-title {
+        max-width: 100%;
+        margin-right: 0;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+    .configurator--with-title .configurator__form-container {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 989px) {
+    .configurator__form-container {
+        width: 100%;
+        flex-wrap: wrap;
+        margin: 0 -10px;
+    }
+    .configurator__select {
+        width: calc(50% - 20px);
+        margin: 0 10px 20px;
+    }
+    .configurator__form-group {
+        margin: 0 10px;
+        width: 100%;
+    }
+    .configurator__form-button.button {
+        width: 100%;
+        text-align: center;
+    }
+}

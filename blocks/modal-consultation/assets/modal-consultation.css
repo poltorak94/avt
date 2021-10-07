@@ -1,0 +1,55 @@
+.modal-consultation__title {
+    font-size: 24px;
+    color: #EB5F12;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+.modal-consultation__title span {
+    font-weight: 400;
+    display: block;
+    color: #1a1a1a;
+}
+
+.modal-consultation-form-groups {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.modal-consultation-form-groups .modal-consultation-form-group {
+    width: calc(50% - 10px);
+}
+
+.modal-consultation-form-group {
+    margin-bottom: 20px;
+}
+
+.modal-consultaton__success {
+    text-align: center;
+    display: none;
+}
+
+.modal-consultation--success .modal-consultation-form {
+    display: none;
+}
+
+.modal-consultation--success .modal-consultaton__success {
+    display: block;
+}
+
+.modal-consultation__check {
+    margin-top: 20px;
+}
+
+@media screen and (max-width: 479px) {
+    .modal-consultation-form-groups {
+        flex-direction: column;
+    }
+    .modal-consultation-form-groups .modal-consultation-form-group {
+        width: 100%;
+    }
+    .modal-consultation__check {
+        margin-top: 15px;
+    }
+}

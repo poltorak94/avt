@@ -1,0 +1,27 @@
+.developers-copyright {
+    background: #000000;
+    margin-top: 95px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+    padding: 10px 15px;
+}
+
+.developers-copyright__text {
+    padding: 0 4px 0 10px;
+    color: #CCCCCC;
+}
+
+.developers-copyright__icon {
+    position: relative;
+    bottom: 2px;
+}
+
+.developers-copyright__link {
+    color: #EB5F12
+}
+
+.developers-copyright__link:hover {
+    text-decoration: underline;
+}

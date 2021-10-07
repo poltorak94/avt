@@ -1,0 +1,13 @@
+<script src="./assets/jquery/jquery.min.js"></script>
+<script src="./assets/select2/select2.min.js"></script>
+<script src="./assets/modal/jquery.arcticmodal-0.3.min.js"></script>
+<script src="./assets/jquery.scrollbar/jquery.scrollbar.js"></script>
+<script src="./assets/mask/jquery.mask.js"></script>
+<script src="./assets/swiper/swiper-bundle.min.js"></script>
+<script src="./assets/fancybox/jquery.fancybox.min.js"></script>
+<script src="./blocks/header/assets/header.js" async></script>
+<script src="./blocks/city-select/assets/city-select.js" async></script>
+<script src="./blocks/select/assets/select.js" async></script>
+<script src="./blocks/consultation/assets/consultation.js" async></script>
+<script src="./blocks/custom-input/assets/custom-input.js" async></script>
+<script src="./blocks/modal/assets/modal.js" async></script>

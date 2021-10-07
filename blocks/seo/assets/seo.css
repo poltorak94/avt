@@ -1,0 +1,18 @@
+.seo__title {
+    font-size: 32px;
+    padding-bottom: 30px;
+}
+
+.seo__title span {
+    font-weight: 700;
+}
+
+.seo__text {
+    padding-left: 70px;
+}
+
+@media screen and (max-width: 767px) {
+    .seo__text {
+        padding-left: 0;
+    }
+}

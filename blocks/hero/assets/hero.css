@@ -1,0 +1,66 @@
+.hero {
+    padding-top: 170px;
+    background: url('./images/BACKGROUND.jpg') no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.hero__container {
+    position: relative;
+}
+
+.hero__title.title {
+    padding-bottom: 30px;
+}
+
+.hero__description {
+    color: #FFFFFF;
+    font-size: 16px;
+    line-height: 24px;
+    padding-bottom: 30px;
+}
+
+.hero__info {
+    max-width: 125px;
+    font-weight: 700;
+    font-size: 12px;
+    color: #FFFFFF;
+    position: absolute;
+    z-index: 5;
+    right: 115px;
+    top: 80px;
+    display: inline-flex;
+    transition: 200ms ease all;
+    align-items: center;
+}
+
+.hero__info:hover {
+    color: #EB5F12;
+}
+
+.hero__info::before {
+    content: url('./images/info.png');
+    position: relative;
+    bottom: 13px;
+    margin-right: 5px;
+}
+
+.hero__modal {
+    max-width: 1170px;
+    padding: 35px;
+    width: 100%;
+}
+
+@media screen and (max-width: 1919px) {
+    .hero__info {
+        position: static;
+        max-width: 100%;
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 1169px) {
+    .hero {
+        padding-top: 120px;
+    }
+}

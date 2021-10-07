@@ -1,0 +1,25 @@
+.modal {
+    position: relative;
+    width: 100%;
+    background: #ffffff;
+}
+
+.modal__close {
+    background: url('./images/close.png');
+    width: 16px;
+    height: 16px;
+    position: absolute;
+    right: -25px;
+    top: -20px;
+}
+
+.modal--hidden {
+    display: none;
+}
+
+@media screen and (max-width: 767px) {
+    .modal__close {
+        right: 0;
+        top: -30px;
+    }
+}

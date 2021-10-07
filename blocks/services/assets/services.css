@@ -1,0 +1,125 @@
+.services__title {
+    font-size: 32px;
+    padding-bottom: 30px;
+}
+
+.services__title span {
+    font-weight: 700;
+}
+
+.services {
+    padding-top: 70px;
+}
+
+.services__items {
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    margin: 0 -15px;
+}
+
+.services__item {
+    position: relative;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    width: calc(33.3% - 30px);
+    height: 260px;
+    margin: 0 15px 30px;
+    transition: 300ms ease all;
+}
+
+.services--all .services__item {
+    width: calc(25% - 30px);
+    height: 270px;
+}
+
+.services__item:hover {
+    transform: scale(1.1);
+}
+
+.services__item-image {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+    object-position: center;
+}
+
+.services__item-info {
+    position: relative;
+    z-index: 2;
+    color: #ffffff;
+    padding: 60px 25px 25px;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, #000000 100%);
+}
+
+.services__item-price {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+}
+
+.services__item-sign-and-price {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.services__item-sign {
+    color: #EB5F12;
+    font-weight: 700;
+    transition: 200ms ease all;
+}
+
+.services__item-title {
+    transition: 200ms ease all;
+    font-weight: 700;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.services__item-title:hover {
+    color: #EB5F12;
+}
+
+.services__modal {
+    padding: 60px;
+    max-width: 400px;
+}
+
+@media screen and (max-width: 1169px) {
+    .services__items {
+        flex-wrap: wrap;
+    }
+    .services--all .services__item {
+        width: calc(33.3% - 30px);
+    }
+}
+
+@media screen and (max-width: 989px) {
+    .services__item {
+        width: calc(50% - 30px);
+    }
+    .services--all .services__item {
+        width: calc(50% - 30px);
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .services__item {
+        width: 100%;
+    }
+    .services--all .services__item {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 479px) {
+    .services__modal {
+        max-width: 320px;
+        padding: 35px 20px;
+    }
+}

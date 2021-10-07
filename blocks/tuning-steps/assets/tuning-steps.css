@@ -1,0 +1,74 @@
+.tuning-steps {
+    padding-top: 100px;
+}
+
+.tuning-steps__title {
+    font-size: 32px;
+    padding-bottom: 30px;
+}
+
+.tuning-steps__title span {
+    font-weight: 700;
+    color: #EB5F12;
+}
+
+.tuning-steps__description {
+    line-height: 22px;
+    max-width: 970px;
+    padding-bottom: 60px;
+}
+
+.tuning-steps__items {
+    display: flex;
+    align-items: flex-start;
+    margin: 0 -15px;
+}
+
+.tuning-steps__item {
+    width: calc(33.3% - 15px);
+    margin: 0 15px 30px;
+    padding: 47px 30px 30px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.08);
+    position: relative;
+}
+
+.tuning-steps__item-title {
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 16px;
+}
+
+.tuning-steps__item-description {
+    line-height: 22px;
+}
+
+.tuning-steps__item-num {
+    position: absolute;
+    width: 44px;
+    height: 58px;
+    background: #EB5F12;
+    box-shadow: 0px 10px 30px rgba(235, 95, 18, 0.3);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 2;
+    color: #FFFFFF;
+    font-size: 24px;
+    font-weight: 700;
+    top: -29px;
+    left: 30px;
+}
+
+@media screen and (max-width: 767px) {
+    .tuning-steps {
+        padding-top: 50px;
+    }
+    .tuning-steps__items {
+        flex-wrap: wrap;
+    }
+    .tuning-steps__item {
+        width: 100%;
+        margin-bottom: 60px;
+    }
+}

@@ -1,0 +1,104 @@
+.custom-input {
+    position: relative;
+}
+
+.custom-input__field {
+    outline: none;
+    padding: 13.5px 16px;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    width: 100%;
+    transition: 200ms ease all;
+}
+
+.custom-input:hover .custom-input__field {
+    border-color: #EB5F12;
+}
+
+.custom-input__field:focus {
+    border-color: #EB5F12;
+}
+
+.custom-input--search .custom-input__field {
+    border-radius: 16px;
+    padding-right: 50px;
+}
+
+.custom-input__help-block {
+    display: none;
+    color: #CC1414;
+    font-size: 12px;
+    margin-top: 3px;
+}
+
+.custom-input__has-error .custom-input__help-block {
+    display: block;
+}
+
+.custom-input__has-error .custom-input__field {
+    border-color: #CC1414;
+}
+
+.custom-input__has-error:hover .custom-input__field {
+    border-color: #CC1414;
+}
+
+.custom-input__user {
+    display: none;
+}
+
+.custom-input__smartphone {
+    display: none;
+}
+
+.custom-input--user .custom-input__user {
+    display: inline-block;
+    position: absolute;
+    z-index: 2;
+    top: 12px;
+    left: 10px;
+}
+
+.custom-input--smartphone .custom-input__smartphone {
+    display: inline-block;
+    position: absolute;
+    z-index: 2;
+    top: 12px;
+    left: 10px;
+}
+
+.custom-input--user, .custom-input--smartphone {
+    position: relative;
+}
+
+.custom-input--user .custom-input__field, .custom-input--smartphone .custom-input__field {
+    background: rgba(0, 0, 0, 0.7);
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.08);
+    backdrop-filter: blur(7px);
+    padding-left: 40px;
+}
+
+.custom-input--user .custom-input__field::placeholder, .custom-input--smartphone .custom-input__field::placeholder {
+    font-weight: 700;
+    color: #808080;
+}
+
+.custom-input--user:hover .custom-input__user path {
+    stroke: #EB5F12;
+}
+
+.custom-input--smartphone:hover .custom-input__smartphone path {
+    stroke: #EB5F12;
+}
+
+.custom-input--user .custom-input__field, .custom-input--smartphone .custom-input__field {
+    color: #ffffff;
+    font-weight: 700;
+}
+
+.custom-input--focused .custom-input__smartphone path {
+    stroke: #EB5F12;
+}
+
+.custom-input--focused .custom-input__user path {
+    stroke: #EB5F12;
+}

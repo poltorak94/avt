@@ -1,0 +1,172 @@
+/*blocks*/
+
+@import "../blocks/container/assets/container.css";
+@import "../blocks/button/assets/button.css";
+@import "../blocks/header/assets/header.css";
+@import "../blocks/title/assets/title.css";
+@import "../blocks/footer/assets/footer.css";
+@import "../blocks/logo/assets/logo.css";
+@import "../blocks/breadcrumbs/assets/breadcrumbs.css";
+@import "../blocks/custom-input/assets/custom-input.css";
+@import "../blocks/custom-checkbox/assets/custom-checkbox.css";
+@import "../blocks/select/assets/select.css";
+@import "../blocks/modal/assets/modal.css";
+@import "../blocks/main-page/assets/main-page.css";
+@import "../blocks/hero/assets/hero.css";
+@import "../blocks/configurator/assets/configurator.css";
+@import "../blocks/advantages/assets/advantages.css";
+@import "../blocks/speed/assets/speed.css";
+@import "../blocks/services/assets/services.css";
+@import "../blocks/tuning-steps/assets/tuning-steps.css";
+@import "../blocks/dealers-preview/assets/dealers-preview.css";
+@import "../blocks/consultation/assets/consultation.css";
+@import "../blocks/news/assets/news.css";
+@import "../blocks/substrate/assets/substrate.css";
+@import "../blocks/news-preview/assets/news-preview.css";
+@import "../blocks/pagination/assets/pagination.css";
+@import "../blocks/publication/assets/publication.css";
+@import "../blocks/partners/assets/partners.css";
+@import "../blocks/swiper-slider/assets/swiper-slider.css";
+@import "../blocks/contacts/assets/contacts.css";
+@import "../blocks/modal-consultation/assets/modal-consultation.css";
+@import "../blocks/reviews/assets/reviews.css";
+@import "../blocks/review-modal/assets/review-modal.css";
+@import "../blocks/service/assets/service.css";
+@import "../blocks/seo/assets/seo.css";
+@import "../blocks/brand/assets/brand.css";
+@import "../blocks/switcher/assets/switcher.css";
+@import "../blocks/categories/assets/categories.css";
+@import "../blocks/category/assets/category.css";
+@import "../blocks/motor/assets/motor.css";
+@import "../blocks/service-modal/assets/service-modal.css";
+@import "../blocks/chip/assets/chip.css";
+@import "../blocks/services-calc/assets/services-calc.css";
+@import "../blocks/city-select/assets/city-select.css";
+@import "../blocks/chip-info/assets/chip-info.css";
+@import "../blocks/thanks-modal/assets/thanks-modal.css";
+@import "../blocks/error-page/assets/error-page.css";
+@import "../blocks/developers-copyright/assets/developers-copyright.css";
+/* fonts */
+
+@font-face {
+    font-family: 'Gotham Pro';
+    src: url('./fonts/GothamPro-Bold.eot');
+    src: local('Gotham Pro Bold'), local('GothamPro-Bold'), url('./fonts/GothamPro-Bold.eot?#iefix') format('embedded-opentype'), url('./fonts/GothamPro-Bold.woff') format('woff'), url('./fonts/GothamPro-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Gotham Pro';
+    src: url('./fonts/GothamPro.eot');
+    src: local('Gotham Pro'), local('GothamPro'), url('./fonts/GothamPro.eot?#iefix') format('embedded-opentype'), url('./fonts/GothamPro.woff') format('woff'), url('./fonts/GothamPro.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+*::before, *::after {
+    box-sizing: inherit;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+button {
+    outline: none;
+    border: none;
+}
+
+img {
+    border: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+    display: inline-block;
+}
+
+select {
+    appearance: none;
+}
+
+input, button, textarea {
+    font-family: 'Gotham Pro';
+}
+
+input {
+    font-size: 14px;
+}
+
+input[type='number'] {
+    -moz-appearance: textfield;
+}
+
+input::-webkit-outer-spin-button, input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+
+input[type="submit"] {
+    appearance: none;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    border: none;
+    cursor: pointer;
+    outline: none;
+}
+
+input::placeholder, textarea::placeholder {
+    color: #808080;
+    font-size: 14px;
+}
+
+textarea {
+    width: 100%;
+    font-size: 14px;
+    outline: none;
+    min-height: 120px;
+    resize: none;
+    padding: 13.5px 16px;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    transition: 200ms ease all;
+}
+
+textarea:hover, textarea:focus {
+    border-color: #EB5F12;
+}
+
+html {
+    touch-action: manipulation;
+}
+
+body {
+    position: relative;
+    padding: 0;
+    margin: 0;
+    font-size: 14px;
+    color: #333333;
+    overflow-x: hidden;
+    min-height: 100vh;
+    font-family: 'Gotham Pro';
+    font-weight: normal;
+    display: flex;
+    flex-direction: column;
+    background: #ffffff;
+}
+
+main {
+    flex: 1;
+}
+
+button {
+    cursor: pointer;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin-top: 0;
+}
+
+p {
+    line-height: 20px;
+}

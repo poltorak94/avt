@@ -1,0 +1,117 @@
+.advantages {
+    color: #ffffff;
+    margin-top: 62px;
+    position: relative;
+}
+
+.advantages::before {
+    content: '';
+    width: calc(100% - 625px);
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    backdrop-filter: blur(7px);
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.advantages__items {
+    display: inline-flex;
+    align-items: flex-start;
+    position: relative;
+    z-index: 2;
+    padding-top: 40px;
+    padding-right: 20px;
+    padding-bottom: 50px;
+    background: rgba(0, 0, 0, 0.6);
+    backdrop-filter: blur(7px);
+}
+
+.advantages__item {
+    width: 100%;
+    max-width: 200px;
+    margin-right: 30px;
+}
+
+.advantages__item:last-child {
+    margin-right: 0;
+}
+
+.advantages__item-title {
+    margin: 20px 0;
+    font-weight: 700;
+}
+
+.advantages__description {
+    line-height: 22px;
+}
+
+.advantages--chip::before {
+    content: none;
+}
+
+.advantages--chip {
+    color: #1A1A1A;
+}
+
+.advantages--chip .advantages__items {
+    background: none;
+    padding-right: 0;
+}
+
+.advantages--chip .advantages__items {
+    backdrop-filter: none;
+}
+
+.advantages__title {
+    font-size: 32px;
+    display: none;
+}
+
+.advantages__title span {
+    color: #EB5F12;
+    font-weight: 700;
+}
+
+.advantages--chip .advantages__title {
+    display: block;
+}
+
+.advantages--chip .advantages__item {
+    max-width: 270px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.advantages--chip .advantages__item-icon {
+    width: 32px;
+    margin-right: 16px;
+}
+
+.advantages--chip .advantages__item-title {
+    flex: 1;
+}
+
+@media screen and (max-width: 767px) {
+    .advantages__items {
+        flex-wrap: wrap;
+    }
+    .advantages::before {
+        content: none;
+    }
+    .advantages__items {
+        padding: 25px;
+        margin: 0 -10px;
+    }
+    .advantages__item {
+        width: calc(50% - 20px);
+        margin: 0 10px 20px;
+    }
+}
+
+@media screen and (max-width: 479px) {
+    .advantages__item {
+        width: 100%;
+    }
+}

@@ -1,0 +1,41 @@
+.service-modal {
+    width: 100%;
+}
+
+.service-modal__title {
+    font-size: 24px;
+    font-weight: 700;
+    color: #EB5F12;
+    margin-bottom: 10px;
+}
+
+.service-modal__description {
+    color: #333333;
+    margin-bottom: 30px;
+    line-height: 22px;
+}
+
+.service-modal__form-group {
+    margin-bottom: 20px;
+}
+
+.service-modal__success {
+    text-align: center;
+    display: none;
+}
+
+.service-modal--success .service-modal__form {
+    display: none;
+}
+
+.service-modal--success .service-modal__success {
+    display: block;
+}
+
+.service-modal__success .service-modal__description {
+    margin-bottom: 0;
+}
+
+.service-modall--all-services .service-modal__form-group--select {
+    display: none;
+}

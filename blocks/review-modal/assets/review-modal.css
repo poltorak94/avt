@@ -1,0 +1,81 @@
+.review-modal__form-groups--triple {
+    display: flex;
+    align-items: flex-start;
+}
+
+.review-modal__form-groups--triple .review-modal__form-group {
+    margin-right: 20px;
+}
+
+.review-modal__form-groups--triple .review-modal__form-group:last-child {
+    margin-right: 0;
+}
+
+.review-modal__form-group {
+    margin-bottom: 20px;
+}
+
+.review-modal__title {
+    font-size: 24px;
+    margin-bottom: 30px;
+}
+
+.review-modal__title span {
+    font-weight: 700;
+    color: #EB5F12;
+    display: block;
+}
+
+.review-modal__form-groups--double {
+    display: flex;
+    align-items: flex-start;
+}
+
+.review-modal__form-groups--double .review-modal__form-group {
+    flex: 1;
+    margin-right: 20px;
+}
+
+.review-modal__success {
+    display: none;
+}
+
+.review-modal__success .review-modal__title {
+    margin-bottom: 10px;
+}
+
+.review-modal--success .review-modal__form {
+    display: none;
+}
+
+.review-modal--success .review-modal__success {
+    display: block;
+}
+
+.review-modal__check {
+    margin-top: 15px;
+}
+
+@media screen and (max-width: 767px) {
+    .review-modal__form-groups--triple {
+        flex-direction: column;
+    }
+    .review-modal__form-groups--triple .review-modal__form-group {
+        margin-right: 0;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 479px) {
+    .review-modal__form-groups--double {
+        flex-direction: column;
+    }
+    .review-modal__form-groups--double .review-modal__form-group {
+        margin-right: 0;
+        width: 100%;
+    }
+    .review-modal__submit {
+        width: 100%;
+        text-align: center;
+    }
+}

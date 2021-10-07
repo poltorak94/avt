@@ -1,0 +1,60 @@
+.speed {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 640px;
+    height: 640px;
+}
+
+.speed__line {
+    position: absolute;
+    top: -85px;
+    right: -95px;
+    z-index: 3;
+}
+
+.speed__bright {
+    position: absolute;
+    top: -75px;
+    right: -100px;
+    z-index: 1;
+    opacity: 0;
+    transition: 1500ms ease all;
+}
+
+.speed__arrow {
+    position: absolute;
+    position: absolute;
+    right: 242px;
+    top: -25px;
+    transform-origin: bottom;
+    z-index: 10;
+    transition: 1500ms ease all;
+}
+
+.speed--play .speed__arrow {
+    transform: rotate( 134deg);
+}
+
+.speed--play .speed__bright {
+    opacity: 1;
+}
+
+@media screen and (max-width: 1919px) {
+    .speed__line {
+        right: 55px;
+    }
+    .speed__bright {
+        right: 52px;
+    }
+    .speed__arrow {
+        right: 380px;
+        top: -45px;
+    }
+}
+
+@media screen and (max-width: 1169px) {
+    .speed {
+        display: none;
+    }
+}

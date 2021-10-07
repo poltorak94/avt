@@ -1,0 +1,1 @@
+<a href=" <?= $button['url'] ?>" <?= $button['attr'] ?> class="button <?= $button['modificator'] ?> <?= $button['mixin'] ?>"><?= $button['text'] ?></a>

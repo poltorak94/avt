@@ -1,0 +1,32 @@
+.city-select {
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 35px;
+}
+
+.city-select__item {
+    transition: 200ms ease all;
+    margin-bottom: 10px;
+    line-height: 22px;
+    font-size: 16px;
+    font-weight: 700;
+    display: inline-flex;
+    align-items: center;
+}
+
+.city-select__item::before {
+    content: url('./images/Subtract.png');
+    margin-right: 10px;
+    position: relative;
+    top: 2px;
+}
+
+.city-select__item:last-child {
+    margin-bottom: 0;
+}
+
+.city-select__item:hover {
+    color: #EB5F12;
+}
